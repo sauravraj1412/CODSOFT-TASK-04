@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkslategrey;
+    color: white;
+    padding: 1rem 2rem;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+nav ul {
+    height:90px;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin-left: 4rem;
+    margin-top: 1.6rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+section {
+    margin: 2rem;
+    padding: 2rem;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.intro img {
+    height:450px;
+    width: 400px;
+    margin-left: 400px; 
+    margin-bottom: 1rem;
+    border:2px solid black;
+}
+.intro h2{
+    margin-left: 480px;
+    font-size: 1.7rem;
+    color:red;
+}
+
+.intro p, .biography p, .legacy p, .global-influence p {
+    font-size: 1.2rem;
+}
+
+.timeline ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.timeline li {
+    margin: 0.5rem 0;
+}
+
+.quotes blockquote {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    padding-left: 1rem;
+    border-left: 4px solid #333;
+    color: #555;
+}
+
+footer {
+    height:100px;
+    text-align: center;
+    padding-top: 2.5rem;
+    background: #333;
+    color: white;
+}
